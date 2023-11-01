@@ -95,7 +95,7 @@ function Navbar() {
             <div className='Mapdiv'>
                { arr.map((e)=>{
                    return(
-                  <NavLink to={`/${e.name}`}> 
+                  <NavLink to={`/${e.name}`} activeClassName="active"> 
                     <div className='ArrayOfList' >  
                       <div className='DashBoardIcon'>  {e.icon}</div>
                       <div  className='DashBoardname'>  {e.name}</div>
