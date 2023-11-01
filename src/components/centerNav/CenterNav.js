@@ -22,13 +22,13 @@ function CenterNav() {
           <div style={{ marginLeft: '3%', marginTop: '1.5rem', fontSize: '20px' }}> <BiMoon /></div>
           <div style={{ marginLeft: '2%', marginTop: '1rem', fontSize: '20px', borderRadius: '50%' }}><img style={{ borderRadius: '50%' }} width='50px' height='50px' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPfO37MK81JIyR1ptwqr_vYO3w4VR-iC2wqQ&usqp=CAU' /></div>
         </div>
-        <div className="CardPrising">
+        {/* <div className="CardPrising">
       <Card title="Product Name" price="$99.99" rating="4.5" icon="⭐" />
       <Card title="Another Product" price="$49.99" rating="3.9" icon="⭐" />
       <Card title="Product Name" price="$99.99" rating="4.5" icon="⭐" />
       <Card title="Another Product" price="$49.99" rating="3.9" icon="⭐" />
       {/* Add more Card components as needed */}
-    </div>
+    
     
       </div>
       
