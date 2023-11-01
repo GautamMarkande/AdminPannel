@@ -1,0 +1,115 @@
+.mainDiv{
+    background-color: whitesmoke;
+    margin-left: 20%;
+    height: auto;
+    padding-top: 10%;
+  }
+  .ProductInfo{
+    padding: 1rem;
+    /* margin-left: 23.5%; */
+    font-size: 22px;
+    width: 50%;
+  }
+  .ProductInfoName{
+    padding: 1.2em;
+    display: flex;
+    justify-content: space-between;
+  
+  }
+  /* className="ProductInfoMain" */
+  .ProductInfoMain{
+    /* border: 1px solid black; */
+    width: 50%;
+    margin-left: 25%;
+    background-color: white;
+    height: 100vh;
+    border-radius: 10px;
+    /* margin-top: 15% ; */
+  }
+  label{
+    font-size: 20px;
+    color: #4A5568;
+  }
+  .input{
+    border: 1px solid gray;
+    outline: none;
+    border-radius: 2px;
+    width: 14rem;
+    height: 6vh;
+    text-align: center;
+    color: #4A5568 ;
+    /* border-bottom: 1px solid gray; */
+  }
+  button{
+    width: 80%;
+    margin-left: 3rem;
+    height: 10vh;
+    margin-top: 1.3rem;
+    background-color:#0da487 ;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
+  }
+  .ProductInfoSwitch{
+    display: flex;
+    gap: 148px;
+    padding: 1.2em;
+   
+  }
+  #flexSwitchCheckDefault{
+    font-size: 22px;
+    /* font-weight: 900; */
+    /* text-align: center; */
+  }
+  #flexSwitchCheckChecked{
+    font-size: 22px;
+  }
+  .Description{
+    width: 50%;
+    margin-left: 25%;
+    background-color: white;
+    height: 80vh;
+    border-radius: 10px;
+    margin-top: 8%;
+
+  }
+  .Category_container{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 1%;
+    width: 50%;
+    background-color: white;
+    padding: 20px;
+    height: 50vh;
+    align-content: space-between;
+    justify-content: space-between;
+    border-radius: 10px;
+    margin-left: 25%;
+    gap: 10px;
+  }
+  .Category_container div{
+    display: flex;
+    width: 100%;
+    gap: 40px;
+    align-items: center;
+  }
+  .Category_container>div:first-child h1{
+    font-size: 1.4rem
+  }
+  .Category_container div input,select{
+    width: 30vw;
+    padding: 4px 20px;
+    font-size: 1.1rem;
+    border-radius: 4px;
+    outline: none;
+    background-color: #f8f8f8;
+    border: none;
+  
+  }
+  .Category_container div span{
+    width: 38%;
+    font-size: 1.1rem;
+    font-weight: 500;
+  }

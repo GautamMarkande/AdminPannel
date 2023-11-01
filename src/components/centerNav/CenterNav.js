@@ -27,8 +27,12 @@ function CenterNav() {
       <Card title="Another Product" price="$49.99" rating="3.9" icon="⭐" />
       <Card title="Product Name" price="$99.99" rating="4.5" icon="⭐" />
       <Card title="Another Product" price="$49.99" rating="3.9" icon="⭐" />
+<<<<<<< HEAD
       {/* Add more Card components as needed */}
     
+=======
+    {/* </div>  */}
+>>>>>>> a41e2ed2dbbe67e8986d5d99cc8529eb88df1d99
     
       </div>
       

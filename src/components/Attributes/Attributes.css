@@ -3,20 +3,14 @@ th,
 td {
   border-collapse: collapse;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  /* width: 100%; */
-  /* padding: 5px 5px 5px 10px; */
 }
 
 table {
   margin-left: 1rem;
-  /* padding: 20px ; */
-
-  /* margin-right: 1rem; */
-  /* width: ; */
 }
-.thh , .tdd {
-  padding: 10px 20px 10px 60px;
-  /* border: 1px solid bl; */
+th,
+td {
+  padding: 10px 100px 10px 100px;
 
 
 }
@@ -37,7 +31,6 @@ tr {
 }
 
 thead {
-  /* background-color: gray; */
   background-color: #ecf3fa;
   height: 10vh;
   /* padding: 0px ; */
@@ -49,7 +42,6 @@ thead {
   grid-template-columns: 75% 20%;
   background-color: white;
   padding: 10px;
-  /* margin-top: 2rem; */
 }
 
 .AddProduct {
@@ -88,8 +80,4 @@ input {
   overflow-x: scroll;
   margin-top: 7rem;
   overflow-y: hidden;
-}
-.TableSection{
-  overflow: auto;
-  /* width: 300px; */
 }
